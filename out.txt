@@ -1,0 +1,4 @@
+Keyword:  int int for int return
+Separator:  ( ) { ; ( ; ; ) { ( , ) ; } ; }
+Operator:  ++
+Identifier:  include stdio h main n i i n i printf d i
