@@ -4,6 +4,10 @@ Design a lex code to print the number of total characters, words,whitespaces, in
 
 %{
     #include<stdio.h>
+    extern FILE *yyin;
+    extern FILE *yyout;
+    extern char *yytext;
+    extern int yylex();
     int words = 0,chars = 0,spaces = 0;    
 %}
 %%

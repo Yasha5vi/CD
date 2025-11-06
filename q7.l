@@ -8,7 +8,7 @@ from in.c file and store the output in out.c file
     #include<stdlib.h>
     int count = 0;
 %}
-%%
+%% 
 "//".*          {count++;}
 "/*"([^*]|\*+[^*/])*\*+"/"        {count++;}
 .|\n                {fprintf(yyout,"%s",yytext);}
